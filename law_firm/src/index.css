@@ -1,0 +1,29 @@
+:root {
+  --color-black: #111;
+  --color-white: #fff;
+  --color-darkgrey: #1d1d1d;
+  --color-btn: #e3b748
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  overflow-x: hidden;
+  line-height: 1.5;
+  width: 100%;
+}

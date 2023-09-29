@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 30rem;
+    height: 26px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.btn {
+    background-color: var(--color-darkgrey);
+    color:var(--color-white)
+}
