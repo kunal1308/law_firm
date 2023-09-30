@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60rem;
+  
+  }
+  .introTxt {
+    color: var(--color-white);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87.222px;
+    width: 25rem;
+    height: 11rem;
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+  }
+  .line {
+    width: 5px;
+    height: 13rem;
+    background-color: #6a6a6a;
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+  }
+  
+  .contentWrapper {
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin: 230px 160px; */
+      margin-top:5rem;
+      margin-bottom: 5rem;
+  }
+  .lawyerHead {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52.007px;
+    color: var(--color-white);
+    width: 15rem;
+    height: 3rem;
+  }
+  .lawyerTxt {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.254px;
+    color: var(--color-white);
+    opacity: 0.3;
+    width: 24rem;
+    height: 5.5rem;
+  }

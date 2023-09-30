@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className={styles.wrapper}>
       <Logo />
       <Navigation />
-      <Button children={"Contact Now"} />
+      <Button children="Contact Now" />
     </div>
   )
 }

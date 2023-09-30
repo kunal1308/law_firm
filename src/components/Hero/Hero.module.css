@@ -1,9 +1,10 @@
 .wrapper {
-    width: 65rem;
+    width: 60rem;
     height: 50rem;
     display: flex;
     justify-content: space-around;
     justify-content: center;
+    margin-left:1rem;
   }
   
   .leftHero {
@@ -12,7 +13,7 @@
     flex-direction: column;
     /* justify-content: flex-end; */
     gap: 36px;
-    margin-bottom: 145px;
+    margin-bottom: 9rem;
   }
   .herosubHeading {
     font-size: 66px;

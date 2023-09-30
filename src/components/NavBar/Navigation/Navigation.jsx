@@ -5,10 +5,10 @@ const Navigation = () => {
   return (
     <div>
         <ul className={styles.wrapper}>
-            <li><button className={styles.btn}>Home</button></li>
-            <li><button className={styles.btn}>Attorneys</button></li>
-            <li><button className={styles.btn}>Practice Areas</button></li>
-            <li><button className={styles.btn}>About Us</button></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Attorneys</a></li>
+            <li><a href="/">Practice Areas</a></li>
+            <li><a href="/">About Us</a></li>
         </ul>
     </div>
   )
