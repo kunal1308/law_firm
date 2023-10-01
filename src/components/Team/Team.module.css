@@ -1,0 +1,22 @@
+.wrapper {
+    width: 60rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 16rem;
+    height: 4.5rem;
+    color: var(--color-white);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.232px;
+  }
+  .pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }

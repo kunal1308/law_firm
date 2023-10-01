@@ -5,6 +5,7 @@ import Introduction from './components/Introduction/Introduction';
 import CardSection from './components/CardSection/CardSection';
 import Practices from "./components/Practices/Practices";
 import Clients from "./components/Clients/Clients";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <CardSection />
       <Practices />
       <Clients />
+      <Team />
     </div>
     </>
   );
