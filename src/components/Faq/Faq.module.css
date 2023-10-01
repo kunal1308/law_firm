@@ -1,0 +1,89 @@
+.wrapper {
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 30px;
+  }
+  .header {
+    color: var(--color-white);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74.532px;
+  }
+  
+  .leftText {
+    width: 23rem;
+    height: 3.75rem;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.254px;
+    opacity: 0.3;
+  }
+  .right {
+    margin-top:6rem;
+    width: 34rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .rightHeading {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .rightText {
+    width: 35rem;
+    height: 9rem;
+    color: var(--color-white);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.254px;
+    opacity: 0.3;
+  }
+  
+  .rightLine {
+    width: 35rem;
+    height: 2px;
+    opacity: 0.05;
+    background: var(--color-white);
+  }
+  .rightpill {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .pillText {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  .pillWrapper {
+    position: relative;
+  }
+  .pillImage {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .plusIcon {
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.5rem;
+  }
