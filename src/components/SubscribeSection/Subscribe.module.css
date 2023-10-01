@@ -1,0 +1,74 @@
+.wrapper {
+    width: 52rem;
+    height: 18rem;
+    background: rgba(71, 71, 71, 0.5);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .header {
+    width: 41rem;
+    color: var(--color-white);
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75.35px;
+  }
+  .formSection {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:0.5rem;
+  }
+  .formfield {
+    width: 17rem;
+    height: 3.25rem;
+    border-radius: 8px 0px 0px 8px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 0px;
+  }
+  .formfield1 {
+    width: 17rem;
+    height: 3.25rem;
+    border-radius: 0px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 0px;
+  }
+  .formText {
+    color: #818181;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.18px;
+    margin: 20px;
+    border: none;
+  }
+  .category {
+    color: #818181;
+  }
+  
+
+  .btnText {
+    cursor: pointer;
+    width: 7.25rem;
+    height: 3.31rem;
+    border-radius: 0px 8px 8px 0px;
+    background: var(--color-btn);
+    color: var(--color-black);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+  }

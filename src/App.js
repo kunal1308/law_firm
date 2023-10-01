@@ -7,6 +7,8 @@ import Practices from "./components/Practices/Practices";
 import Clients from "./components/Clients/Clients";
 import Team from "./components/Team/Team";
 import Faq from "./components/Faq/Faq";
+import Subscribe from "./components/SubscribeSection/Subscribe";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       <Clients />
       <Team />
       <Faq />
+      <Subscribe />
     </div>
+    <Footer />
     </>
   );
 }
